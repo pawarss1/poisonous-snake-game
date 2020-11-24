@@ -1,0 +1,44 @@
+.snake, .bait {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 10px;
+  width: 10px;
+  border-radius: 0px;
+  background-color: black;
+  border: 1px solid white;
+  z-index: 2;
+}
+.bait {
+  z-index: 1;
+  background-color: red;
+}
+.game-canvas {
+  position: relative;
+  margin: 50px auto;
+  height: 600px;
+  width: 600px;
+  border: 2px solid black;
+}
+
+.scoreClass {
+  text-align: center;
+}
+
+.gameOverClass {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+.startBtnClass, .restartBtnClass {
+  position: relative;
+  background-color: cadetblue;
+  left: 46%;
+}
+.restartBtnClass {
+  left: 47%;
+}
+.headingClass {
+  text-align: center;
+  color: red;
+}
